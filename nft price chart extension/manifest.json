@@ -1,0 +1,20 @@
+{
+  "name": "GS NFT Line Chart",
+  "description": "Ads a line chart to GameStop's NFT page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": ["https://nft.gamestop.com/token/*"],
+      "js": [
+        "content_script.js",
+        "chart.js"
+      ]
+    }
+  ]
+}
