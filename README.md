@@ -4,9 +4,11 @@ individual NFT over time.
 
 ## Installation
 1. Download this repository as a zip (or git clone) and unzip
-2. Follow the steps described here to install the unpacked chrome extension
+2. Follow the steps described here to install the unpacked chrome extension.
 
 https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked
+
+Note: Make sure to select the directory titled "nft price chart extension" when selecting a directory to install. Don't select the directory title "nft-price-chart-extension-main" or it won't install.
 
 ## Usage
 The chrome extension works in the background when viewing individual NFTs on the
