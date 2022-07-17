@@ -124,7 +124,7 @@ function ready_check(){
     });
   }
 
-  waitForElement("[class^='HistoryListContainer']", 30000).then(function(){
+  waitForElement("[class^='HistoryItemWrapper']", 30000).then(function(){
       main()
   });
 }
